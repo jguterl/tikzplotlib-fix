@@ -1,7 +1,7 @@
 How to fix tikzplotlib to work with Matplotlib > 3.7
 
 1. In _axes.py, replace
-''''
+'''
 from matplotlib.backends.backend_pgf import (
     common_texification as mpl_common_texification,
 )
